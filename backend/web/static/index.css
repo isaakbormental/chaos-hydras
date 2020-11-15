@@ -1,0 +1,62 @@
+/*#fbfbfd*/
+
+/*#1d1d1f*/
+
+/*.page-content {*/
+/*    margin: 0;*/
+/*    position: absolute;*/
+/*    top: 30%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -30%);*/
+/*}*/
+
+.input-field {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    border: 1px solid #1d1d1f;
+    border-radius: 5px;
+    width: 20%;
+    height: 50px;
+}
+
+.button {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: linear-gradient(135deg, #FDE64A, #FDE64A);
+    border-radius: 4px;
+    height: 50px;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+	user-select: none;
+    transform: translate(-50%, -40%);
+}
+
+
+.button:active{
+    outline: none;
+    -moz-outline-style: none;
+    background: linear-gradient(135deg, #000000, #000000);
+}
+
+
+.output-url {
+    position: absolute;
+    /*box-sizing: border-box;*/
+    top: 60%;
+    left: 50%;
+    /*width: 40%;*/
+    height: 50px;
+    transform: translate(-50%, -60%);
+    /*border: 1px solid #1d1d1f;*/
+    border-radius: 5px;
+    color: #1d1d1f;
+}
